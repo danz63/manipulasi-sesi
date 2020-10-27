@@ -5,7 +5,7 @@ function tambahsession($data){
 
 function hapusdata(){
 	unset($_SESSION['data']);
-	header("loction:index.php");
+	header("location:index.php");
 }
 if (!session_id()) {
 	session_start();
